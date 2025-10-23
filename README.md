@@ -22,8 +22,6 @@ MediAssist is a dual-system, Retrieval-Augmented Generation (RAG)–based framew
   - Integrated monitoring and explainability layer for transparency
 
 ## 🧠 System Architecture
-```mermaid
-flowchart LR
   A[Input Query] --> B[Document Retriever (FAISS + BGE)]
   B --> C[Context Generator]
   C --> D[LLM (Qwen-2.5)]
